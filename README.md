@@ -1,2 +1,2 @@
 # docker-python
-Extended python-alpine with with gosu.
+Extended python-alpine with gosu.
