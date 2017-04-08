@@ -6,7 +6,7 @@ RUN echo '@edge http://dl-cdn.alpinelinux.org/alpine/edge/main' >> /etc/apk/repo
     echo '@testing http://dl-cdn.alpinelinux.org/alpine/edge/testing' >> /etc/apk/repositories && \
     echo '@community http://dl-cdn.alpinelinux.org/alpine/edge/community' >> /etc/apk/repositories
 
-RUN apk add --no-cache gosu@testing tzinfo
+RUN apk add --no-cache gosu@testing tzdata
 
 RUN mkdir -p /storage /opt
 
