@@ -1,4 +1,4 @@
-FROM python:3-alpine
+FROM python:3.6-rc-alpine3.6
 
 MAINTAINER smueller18
 
